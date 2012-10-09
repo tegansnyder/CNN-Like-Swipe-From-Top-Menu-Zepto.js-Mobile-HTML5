@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>SwipeMenu</title>
+		
+		<!--If you are following the PhoneGap build conventions uncomment this line-->
+		<!--<script src="phonegap.js"></script>-->
+		
+        <meta name="description" content="This is an example prepared to show off a type of sliding drawer menu similar to CNN's iPhone app, but using HTML5 Hybrid approach with Javascript and CSS3. Paired with Phonegap its a great menu treatment technique.">
+		
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="cleartype" content="on">
+
+		<link href='http://fonts.googleapis.com/css?family=Cantarell:700italic' rel='stylesheet' type='text/css'>
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+		
+    </head>
+    <body>
+	
+		<header class="swipemenu-rested" id="swipemenu">
+		
+			<nav>
+				<h3>MY MENU<del></del></h3>
+				<ul>
+					<li class="star"><a href="#">Home</a></li>
+					<li class="star"><a href="#">Something here</a></li>
+					<li class="star"><a href="#">Maybe a link</a></li>
+					<li class="star"><a href="#">Another here</a></li>
+					<li class="star"><a href="#">Another here</a></li>
+				</ul>
+				<h3>SOMETHING<del></del></h3>
+				<ul>
+					<li class="star"><a href="#">Something here</a></li>
+					<li class="star"><a href="#">Maybe a link</a></li>
+				</ul>
+			</nav>
+		
+			<section id="puller" class="puller-rested">
+				<del></del>
+				<section>
+					<img src="img/puller-logo.png" alt="logo">
+					<del></del>
+					<del></del>
+					<del></del>
+				</section>
+			</section>
+			
+			<aside>
+				<a href="#"><img src="img/btn_star.png"></a>
+				<a href="#"><img src="img/btn_star.png"></a>
+				<a href="#"><img src="img/btn_star.png"></a>
+				<a href="#"><img src="img/btn_star.png"></a>
+			</aside>
+			
+		</header>
+
+        <article>
+			<img src="img/squirrel.jpg" alt="Squirrel">
+			<h2>SQUIRREL SAYS HELLO</h2>
+			<p>This is an example of a menu that slides down from the top with a swiping motion. The idea was taken from CNN's iPhone app. I tried to model the interaction as close as I could using Javascript and CSS3.</p>
+			<p><strong>Note:</strong> This is one of thoose demos that really only shines in a hybrid container. I have included a config.xml file that you can modify to use with Phonegap Build. In order for it to work smoothly it is important to disable the bouncing nature of the UIWebView. My config.xml file contains the neccessary line to disable it.</p>
+			<p><cite>Example by <a href="http://www.tegdesign.com">Tegan Snyder</a></cite></p>
+		</article>
+
+        <script src="js/vendor/zepto.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/swipeslide.min.js"></script>
+        <script src="js/helper.js"></script>
+
+    </body>
+</html>

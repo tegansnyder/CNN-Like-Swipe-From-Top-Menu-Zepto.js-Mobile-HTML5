@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mycompany.swipemenu"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <name>SwipeMenu</name>
+
+    <description>
+		This is an example prepared to show off a type of sliding drawer menu similar to CNN's iPhone app, but using HTML5 Hybrid approach with Javascript and CSS3. Paired with Phonegap its a great menu treatment technique.
+    </description>
+
+    <author href="http://www.tegdesign.com" email="tsnyder@tegdesign.com">
+        Tegan Snyder
+    </author>
+	
+	<preference name="phonegap-version" value="2.0.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
+	<preference name="target-device" value="handset" />
+	
+	<icon src="icons/ios/icon.png" width="57" height="57" />
+	<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+	
+	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="splash.png" />
+	
+	<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+	<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+	
+	<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<feature name="http://api.phonegap.com/1.0/battery"/>
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/contacts"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	
+	<access origin="*" />
+	
+</widget>
