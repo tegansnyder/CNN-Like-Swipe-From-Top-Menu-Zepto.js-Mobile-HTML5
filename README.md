@@ -11,4 +11,4 @@ DEMO: http://www.tegdesign.com/CNN-Like-Swipe-From-Top-Menu-Zepto.js-Mobile-HTML
 Note: A real demo of this requires compiling this to a Hybrid app using PhoneGap Build with UIWebView bounce turned off. I have included a config.xml starter file for these purpose.
 
 Install it on iOS from Phonegap Build by scanning this QR:
-![Alt text](http://www.tegdesign.com/CNN-Like-Swipe-From-Top-Menu-Zepto.js-Mobile-HTML5/qr.png "Install")
+![Alt text](http://www.tegdesign.com/CNN-Like-Swipe-From-Top-Menu-Zepto.js-Mobile-HTML5/qr.png "Install") Note: I used my work key to sign.
