@@ -9,6 +9,10 @@ Zepto(function($){
 	* @menu_btns_container : the container for the default mini-button navigation
 	*
 	*/
+	
+	// dynamically set content-scroller height
+	
+	$('#content-scroller').height(viewport().height);
 
 	$('#puller').swipeslide({
 		min_move_y: Math.abs(parseInt($('#swipemenu nav').css('top').split('px')[0], 10)),
@@ -18,4 +22,15 @@ Zepto(function($){
 		menu_btns_container: 'aside'
 	});
 	
+	
 });
+
+function viewport(){
+	var e = window;
+	var a = 'inner';
+	if (!('innerWidth' in window)) {
+		a = 'client';
+		e = document.documentElement || document.body;
+	}
+	return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+}
