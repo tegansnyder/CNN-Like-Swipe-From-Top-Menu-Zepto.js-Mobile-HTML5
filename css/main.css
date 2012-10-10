@@ -254,6 +254,10 @@ textarea {
 	-webkit-overflow-scrolling: touch;
 	width:100%;
 	height:200px;
+	position: absolute;
+	top: 45px;
+	left:0px;
+	z-index: 1;
 }
 
 article h2 {

@@ -12,7 +12,7 @@ Zepto(function($){
 	
 	// dynamically set content-scroller height
 	
-	$('#content-scroller').height(viewport().height);
+	$('#content-scroller').height(viewport().height - 50);
 
 	$('#puller').swipeslide({
 		min_move_y: Math.abs(parseInt($('#swipemenu nav').css('top').split('px')[0], 10)),
