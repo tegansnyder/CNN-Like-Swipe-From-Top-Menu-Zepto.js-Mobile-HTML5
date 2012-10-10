@@ -70,6 +70,7 @@ textarea {
 	width: 100%;
 	top: -40px;
 	left: 0px;
+	z-index: 2147483647;
 }
 
 .swipemenu-rested {
